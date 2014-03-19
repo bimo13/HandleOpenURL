@@ -5,9 +5,9 @@
         id        		= "com.TotalIT.HandleOpenURL"
         version   		= "0.0.1">
 
-			<name>Total IT FMCG</name>
+			<name>Total IT HandleOpenURL</name>
 			<description>
-				Fast Moving Consumer Good: ver.1.0.1
+				Dummy app for testing Android HandleOenURL
 			</description>
 			
 			<author href="http://totalit.co.id/" email="support@totalit.co.id">
