@@ -26,17 +26,11 @@
     	
         <script src="cordova.js" type="text/javascript"></script>
 		<script type="text/javascript">
-			app.initialize();
-			
 			// this is for the LaunchMyApp plugin
 			function handleOpenURL(url) {
 				setTimeout(function() {
 					alert("LaunchMyApp plugin received url: " + url);
 				}, 0);
-			}
-			
-			window.onerror = function(a,b,c) {
-				alert(a + "; " + b + "; " + c);
 			}
         </script>
         
