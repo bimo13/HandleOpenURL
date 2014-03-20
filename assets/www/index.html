@@ -8,8 +8,6 @@
         
         <title>Android handleOpenURL</title>
         
-        <script type="text/javascript" src="js/plugins/LaunchMyApp.js"></script>
-        
         <!-- Bootstrap core CSS -->
     	<!--<link href="includes/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
         
@@ -27,13 +25,13 @@
     <body>
     	
         <script>
-            function handleOpenURL(url){
-                setTimeout(function(){
-                    alert("Received URL : " + url);
-                }, 0);
-            }
-			
-			handleOpenURL();
+            
+			// this is for the LaunchMyApp plugin
+			function handleOpenURL(url) {
+				setTimeout(function() {
+					alert("LaunchMyApp plugin received url: " + url);
+				}, 0);
+			}
 			
         </script>
         
